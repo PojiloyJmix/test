@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Test</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <svg display="none">
+      <symbol id="clipboard" viewBox="0 0 32 32">
+         <g>
+            <path
+               d="M21.3334 5.33301H24C24.7073 5.33301 25.3856 5.61396 25.8857 6.11406C26.3858 6.61415 26.6667 7.29243 26.6667 7.99967V26.6663C26.6667 27.3736 26.3858 28.0519 25.8857 28.552C25.3856 29.0521 24.7073 29.333 24 29.333H8.00004C7.2928 29.333 6.61452 29.0521 6.11442 28.552C5.61433 28.0519 5.33337 27.3736 5.33337 26.6663V7.99967C5.33337 7.29243 5.61433 6.61415 6.11442 6.11406C6.61452 5.61396 7.2928 5.33301 8.00004 5.33301H10.6667"
+               stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+               d="M20 2.66699H12C11.2636 2.66699 10.6666 3.26395 10.6666 4.00033V6.66699C10.6666 7.40337 11.2636 8.00033 12 8.00033H20C20.7363 8.00033 21.3333 7.40337 21.3333 6.66699V4.00033C21.3333 3.26395 20.7363 2.66699 20 2.66699Z"
+               stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M22 21H10" stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M22 16H10" stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+         </g>
+      </symbol>
+      <symbol id="tool" viewBox="0 0 32 32">
+         <g>
+            <path
+               d="M19.6001 8.4003C19.3557 8.64954 19.2189 8.98463 19.2189 9.33363C19.2189 9.68264 19.3557 10.0177 19.6001 10.267L21.7334 12.4003C21.9826 12.6446 22.3177 12.7814 22.6667 12.7814C23.0157 12.7814 23.3508 12.6446 23.6001 12.4003L28.6267 7.37363C29.2972 8.85522 29.5002 10.5059 29.2087 12.1058C28.9172 13.7057 28.145 15.1788 26.9951 16.3287C25.8452 17.4786 24.3721 18.2507 22.7722 18.5422C21.1724 18.8337 19.5216 18.6307 18.0401 17.9603L8.82672 27.1736C8.29629 27.7041 7.57686 28.0021 6.82672 28.0021C6.07657 28.0021 5.35715 27.7041 4.82672 27.1736C4.29629 26.6432 3.99829 25.9238 3.99829 25.1736C3.99829 24.4235 4.29629 23.7041 4.82672 23.1736L14.0401 13.9603C13.3696 12.4787 13.1666 10.828 13.4581 9.22811C13.7496 7.62822 14.5218 6.15517 15.6717 5.00526C16.8216 3.85535 18.2946 3.08319 19.8945 2.79169C21.4944 2.50019 23.1451 2.70318 24.6267 3.37363L19.6134 8.38697L19.6001 8.4003Z"
+               stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+         </g>
+      </symbol>
+      <sumbol id="aluminums" viewBox="0 0 38 36">
+         <g>
+            <!-- ! фикс бак -->
+            <!-- <path
+               d="M2.375 18C2.375 15.0163 3.62611 12.1548 5.85311 10.045C8.0801 7.93526 11.1006 6.75 14.25 6.75H23.75C26.8994 6.75 29.9199 7.93526 32.1469 10.045C34.3739 12.1548 35.625 15.0163 35.625 18C35.625 20.9837 34.3739 23.8452 32.1469 25.955C29.9199 28.0647 26.8994 29.25 23.75 29.25H14.25C12.6906 29.25 11.1464 28.959 9.70563 28.3936C8.26489 27.8283 6.9558 26.9996 5.85311 25.955C3.62611 23.8452 2.375 20.9837 2.375 18ZM14.25 9C11.7304 9 9.31408 9.94821 7.53249 11.636C5.75089 13.3239 4.75 15.6131 4.75 18C4.75 20.3869 5.75089 22.6761 7.53249 24.364C9.31408 26.0518 11.7304 27 14.25 27H23.75C26.2696 27 28.6859 26.0518 30.4675 24.364C32.2491 22.6761 33.25 20.3869 33.25 18C33.25 15.6131 32.2491 13.3239 30.4675 11.636C28.6859 9.94821 26.2696 9 23.75 9H14.25Z"
+               fill="#E1E5F0" /> -->
+         </g>
+      </sumbol>
+   </svg>
+   <div class="wrapper">
+      <aside class="sidebar">
+         <div class="sidebar__container">
+            <div class="top__block">
+               <div class="logo"><img class="logo__img" src="img/logo.png" alt="logo"></div>
+               <div class="tabs__box">
+                  <div class="tab active">
+                     <svg class="tab__icon">
+                        <use xlink:href="#clipboard"></use>
+                     </svg>
+                     <p class="tab__text">orders</p>
+                     <span class="tab__numbers">45</span>
+                  </div>
+                  <div class="tab">
+                     <svg class="tab__icon">
+                        <use xlink:href="#tool"></use>
+                     </svg>
+                     <p class="tab__text">accessories</p>
+                     <span class="tab__numbers"></span>
+                  </div>
+                  <div class="tab">
+                     <svg class="tab__icon">
+                        <use xlink:href="#aluminums"></use>
+                     </svg>
+                     <p class="tab__text">accessories</p>
+                     <span class="tab__numbers"></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <main class="main">
+
+      </main>
+      <div class="mainpanel"></div>
+   </div>
+</body>
+
+</html>
