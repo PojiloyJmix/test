@@ -33,50 +33,555 @@
                stroke="#E1E5F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
          </g>
       </symbol>
-      <sumbol id="aluminums" viewBox="0 0 38 36">
+      <symbol id="arrow" viewBox="0 0 24 24">
          <g>
-            <!-- ! фикс бак -->
-            <!-- <path
-               d="M2.375 18C2.375 15.0163 3.62611 12.1548 5.85311 10.045C8.0801 7.93526 11.1006 6.75 14.25 6.75H23.75C26.8994 6.75 29.9199 7.93526 32.1469 10.045C34.3739 12.1548 35.625 15.0163 35.625 18C35.625 20.9837 34.3739 23.8452 32.1469 25.955C29.9199 28.0647 26.8994 29.25 23.75 29.25H14.25C12.6906 29.25 11.1464 28.959 9.70563 28.3936C8.26489 27.8283 6.9558 26.9996 5.85311 25.955C3.62611 23.8452 2.375 20.9837 2.375 18ZM14.25 9C11.7304 9 9.31408 9.94821 7.53249 11.636C5.75089 13.3239 4.75 15.6131 4.75 18C4.75 20.3869 5.75089 22.6761 7.53249 24.364C9.31408 26.0518 11.7304 27 14.25 27H23.75C26.2696 27 28.6859 26.0518 30.4675 24.364C32.2491 22.6761 33.25 20.3869 33.25 18C33.25 15.6131 32.2491 13.3239 30.4675 11.636C28.6859 9.94821 26.2696 9 23.75 9H14.25Z"
-               fill="#E1E5F0" /> -->
+            <path d="M6 9L12 15L18 9" stroke="#A1A5BA" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" />
          </g>
-      </sumbol>
+      </symbol>
+      <symbol id="filtre" viewBox="0 0 16 16">
+         <g>
+            <path d="M14.6667 2H1.33334L6.66668 8.30667V12.6667L9.33334 14V8.30667L14.6667 2Z" fill="#ffffff"
+               stroke="#656D8B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+         </g>
+      </symbol>
+      <symbol id="search" viewBox="0 0 16 16">
+         <g>
+            <path
+               d="M15.0668 13.6L12.1335 10.6667C12.8668 9.60001 13.3334 8.33336 13.3334 6.93336C13.3334 3.46669 10.4667 0.600006 7.00002 0.600006C3.53335 0.600006 0.666687 3.46669 0.666687 6.93336C0.666687 10.4 3.53335 13.2667 7.00002 13.2667C8.40002 13.2667 9.66675 12.8 10.7334 12.0667L13.6667 15L15.0668 13.6ZM2.66669 7.00001C2.66669 4.60001 4.60002 2.66668 7.00002 2.66668C9.40002 2.66668 11.3334 4.60001 11.3334 7.00001C11.3334 9.40001 9.40002 11.3333 7.00002 11.3333C4.60002 11.3333 2.66669 9.40001 2.66669 7.00001Z"
+               fill="#4C5272" />
+         </g>
+      </symbol>
    </svg>
    <div class="wrapper">
       <aside class="sidebar">
          <div class="sidebar__container">
-            <div class="top__block">
-               <div class="logo"><img class="logo__img" src="img/logo.png" alt="logo"></div>
-               <div class="tabs__box">
-                  <div class="tab active">
-                     <svg class="tab__icon">
-                        <use xlink:href="#clipboard"></use>
-                     </svg>
-                     <p class="tab__text">orders</p>
-                     <span class="tab__numbers">45</span>
+            <div class="sidebar__content">
+               <div class="top__block">
+                  <div class="logo"><img class="logo__img" src="img/logo.png" alt="logo"></div>
+                  <div class="tabs__box">
+                     <div class="tab active">
+                        <svg class="tab__icon">
+                           <use xlink:href="#clipboard"></use>
+                        </svg>
+                        <p class="tab__text">orders</p>
+                        <span class="tab__numbers">45</span>
+                     </div>
+                     <div class="tab">
+                        <svg class="tab__icon">
+                           <use xlink:href="#tool"></use>
+                        </svg>
+                        <p class="tab__text">accessories</p>
+                        <span class="tab__numbers"></span>
+                     </div>
+                     <div class="tab">
+                        <div class="tab__icon-bild">
+
+                        </div>
+                        <p class="tab__text">aluminums</p>
+                        <span class="tab__numbers"></span>
+                     </div>
                   </div>
-                  <div class="tab">
-                     <svg class="tab__icon">
-                        <use xlink:href="#tool"></use>
-                     </svg>
-                     <p class="tab__text">accessories</p>
-                     <span class="tab__numbers"></span>
-                  </div>
-                  <div class="tab">
-                     <svg class="tab__icon">
-                        <use xlink:href="#aluminums"></use>
-                     </svg>
-                     <p class="tab__text">accessories</p>
-                     <span class="tab__numbers"></span>
+               </div>
+               <div class="bottom__block">
+                  <div class="user">
+                     <div class="user__main">
+                        <div class="user__main-icon"><img src="img/user.png" class="user__icon" alt="user photo"></div>
+                        <div class="user__main-name">max smith</div>
+                     </div>
+                     <div class="user__info">
+                        <svg class="user__info-icon">
+                           <use xlink:href="#arrow"></use>
+                        </svg>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </aside>
       <main class="main">
-
-      </main>
-      <div class="mainpanel"></div>
+         <div class="main__container">
+            <!-- ! доделать поля -->
+            <div class="top__content">
+               <h2 class="top__title">orders</h2>
+               <div class="content__nav">
+                  <div class="content__nav-page">all</div>
+                  <div class="content__nav-lists">
+                     <div class="list__filter">
+                        <div class="list__filter-box">
+                           <div class="box__icon-filter">
+                              <svg class="filter__icon">
+                                 <use xlink:href="#filtre"></use>
+                              </svg>
+                           </div>
+                           <p class="filter__text">filter</p>
+                           <div class="filter__input"></div>
+                           <div class="box__icon-arrow">
+                              <svg class="filter__icon">
+                                 <use xlink:href="#arrow"></use>
+                              </svg>
+                           </div>
+                        </div>
+                        <ul class="list__filter-list">
+                           <li><a href="#"></a></li>
+                           <li><a href="#"></a></li>
+                           <li><a href="#"></a></li>
+                           <li><a href="#"></a></li>
+                        </ul>
+                     </div>
+                     <div class="list__search">
+                        <div class="box__icon-search">
+                           <svg class="search__icon">
+                              <use xlink:href="#search"></use>
+                           </svg>
+                        </div>
+                        <p class="serach__text">Serach</p>
+                        <input class="input__search" type="search">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__content">
+               <table class="main__content-table">
+                  <tbody class="table__body">
+                     <tr class="table__nuv">
+                        <td class="nav__box">Order Number</td>
+                        <td class="nav__box">Creation Date</td>
+                        <td class="nav__box">Total Quantity</td>
+                        <td class="nav__box">Customer Details</td>
+                        <td class="nav__box">Shipping Type</td>
+                        <td class="nav__box" colspan="3">Status</td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009450</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 08:22AM</td>
+                        <td class="info__box table__row-info info-total">133 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info info-status">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box arrowbox" id="arrowbox">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009449</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 07:04AM</td>
+                        <td class="info__box table__row-info info-total">205 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info info-status">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box arrowbox" id="arrowbox">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009448</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 07:02AM</td>
+                        <td class="info__box table__row-info info-total">10 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info info-status">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box arrowbox" id="arrowbox">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                                 </d>
+                              </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009447</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 06:22AM</td>
+                        <td class="info__box table__row-info info-total">25 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info info-status">Ready for shipment</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box arrowbox" id="arrowbox">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009450</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 08:22AM</td>
+                        <td class="info__box table__row-info info-total">133 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info info-status">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009446</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 06:15AM</td>
+                        <td class="info__box table__row-info info-total">270 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info info-status">In Transit</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009445</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:51AM</td>
+                        <td class="info__box table__row-info info-total">11 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info info-status__dilivered">Delivered</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009444</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:47AM</td>
+                        <td class="info__box table__row-info info-total">03 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info info-status__dilivered">Delivered</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009443</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:41AM</td>
+                        <td class="info__box table__row-info info-total">20 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009442</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:37AM</td>
+                        <td class="info__box table__row-info info-total">15 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009441</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:37AM</td>
+                        <td class="info__box table__row-info info-total">03 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info">Processing</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009440</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:35AM</td>
+                        <td class="info__box table__row-info info-total">121 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info">Ready for shipment</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009439</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:20AM</td>
+                        <td class="info__box table__row-info info-total">45 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info">In Transit</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009438</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:19AM</td>
+                        <td class="info__box table__row-info info-total">76 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info info-status__canceled">Canceled</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009437</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:19AM</td>
+                        <td class="info__box table__row-info info-total">140 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Free Shipping</td>
+                        <td class="info__box table__row-info info-status__dilivered">Dilivered</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                     <tr class="table__row">
+                        <td class="info__box table__row-info info-order">№ 0009436</td>
+                        <td class="info__box table__row-info info-date">12-05-2023, 01:15AM</td>
+                        <td class="info__box table__row-info info-total">140 pcs</td>
+                        <td class="info__box table__row-info info-customer">Jack Sherman, Sunrise Erectors</td>
+                        <td class="info__box table__row-info info-type">Priority Mail</td>
+                        <td class="info__box table__row-info"> Ready for shipment</td>
+                        <td class="info__box table__row-additionally info-details">
+                           <div class="details__list">
+                              <div class="details__list-content">
+                                 <div class="menu__arrow-box">
+                                    <a href="#" class="menu__link">Details</a>
+                                    <div class="menu__arrow">
+                                       <svg class="menu__arrow-icon">
+                                          <use xlink:href="#arrow"></use>
+                                       </svg>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </td>
+                        <td class="table__row-button info-button"><button class="button__start">start packing</button>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+               <!-- ! -->
+               <div class="under__content">
+                  <div class="under__content-pages">
+                     <div class="pages__text">Show per page:</div>
+                     <div class="pages__list-content">
+                        <div class="pages__list-switch">
+                           <a class="list__text" href="#">20</a>
+                           <div class="list__arrow">
+                              <svg class="list__arrow-icon">
+                                 <use xlink:href="#arrow"></use>
+                              </svg>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="under__content-list">
+                     <div class="list__text">
+                        <p>1-</p><span class="list__bill">20</span>
+                        <p>of</p><span class="list__oll">45</span>
+                     </div>
+                     <div class="list__switch-page">
+                        <div class="switch__arrow">
+                           <svg class="switch__arrow-icon arrow-prev">
+                              <use xlink:href="#arrow"></use>
+                           </svg>
+                        </div>
+                        <div class="page__number">
+                           <span class="active__page">1</span>
+                           <span class="next__page">2</span>
+                        </div>
+                        <div class="switch__arrow">
+                           <svg class="switch__arrow-icon arrow-next">
+                              <use xlink:href="#arrow"></use>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- ! -->
+            </div>
+         </div>
+   </div>
+   </div>
+   </main>
    </div>
 </body>
 
